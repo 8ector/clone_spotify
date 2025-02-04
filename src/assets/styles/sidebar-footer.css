@@ -1,0 +1,243 @@
+body{
+    background-color: black;
+    font-family: var(--font-dm-sans);
+    cursor: url("../image/mic.png"), auto;
+   
+
+
+}
+
+.sidebar {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar__navegation{
+
+   
+    background-color: #121212;
+    background-image: url(../image/galaxy.jpg);
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    width: 300px;
+    padding: 12px;
+    margin: 20px 0 0 10px;
+
+}
+
+.logo img {
+
+    width: 80px;
+}
+
+.sidebar__navegation .logo{
+
+    background-color: #373737;
+    display: flex;
+    border-radius: 16px;
+    padding: 16px 0 10px 16px;
+}
+
+nav ul {
+
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+
+}
+
+nav ul li {
+
+    padding: 10px 0px;
+}
+
+nav ul li a{
+
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.navegation__icone__texto{
+    padding-left: 8px;
+}
+
+
+.sidebar__biblioteca{
+
+    margin: 20px 0 0 10px;
+    background-color: #121212;
+    border-radius: 8px;
+    width: 300px;
+    padding: 0 12px;
+
+}
+
+.sidebar__biblioteca__icone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biblioteca__icone__texto{
+    padding-left: 8px;
+}
+
+.content__playlist{
+
+    background-color: #373737;
+    border-radius: 16px;
+    padding: 0 0 10px 16px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.playlist__text__title{
+
+    color: #fff;
+    font-size: 14px;
+    
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+
+.playlist__text__subtitle{
+
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+.playlist__button{
+
+    border:none;
+    background-image: linear-gradient(270deg, #ff58e5 0, #f652ec 16.67%, #df4cf3 33.33%, #c449f9 50%, #a448ff 66.67%, #7b4aff 83.33%, #394dff 100%);
+    border-radius: 30px;
+    color: #fff;
+    padding: 6px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 120px;
+    margin: 25px 0 0 0;
+    
+    
+} 
+
+
+.content__cookies{
+
+    margin: 30px 10px; 
+}
+
+.content__cookies_link{
+
+    text-decoration: none;
+    color: #394dff;
+}
+
+
+.content__cookies_link:hover{
+
+    text-decoration: underline;
+}
+
+.content__cookies__text {
+
+    color: #b3b3b3;
+    font-size: 10px;
+    
+}
+
+.content__cookies__text:hover {
+
+    color: #394dff;
+    font-size: 12px;
+    
+}
+
+.content__languages__botton {
+
+    margin: 5px 0 10px 0;
+    font-weight: 500;
+    padding: 5px 16px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    border: 0.5px solid #fff;
+}
+
+
+.rodape {
+    
+    /* alinhamento das coisas */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    
+
+    /* personalização */
+    background-image: linear-gradient(270deg, #ff68d6 0, #ff5edf 12.5%, #ff55e8 25%, #e54ef1 37.5%, #c449f9 50%, #9a48ff 62.5%, #5f4bff 75%, #0050ff 87.5%, #0055ff 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+
+    /* posicionamento */
+    position: fixed; /* Mantém o rodapé fixo na parte inferior */
+    bottom: 0; /* Alinha o rodapé à parte inferior da tela */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Faz o rodapé ocupar toda a largura */
+    height: 60px; /* Altura do rodapé */
+    
+
+}
+
+
+
+
+.rodape__texto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+}
+
+.rodape__texto2{
+    padding-top: 5px;
+}
+
+.rodape__botao_botao{
+
+    padding-right: 70px;
+      
+}
+
+.rodape__botton_texto {
+
+
+    margin: 5px 0 10px 0;
+    font-weight: 700;
+    padding: 5px 16px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    border: 0.5px solid #fff;
+}
+
+
